@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOST Foundation | Empowering Youth for the Workplace</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        olive: {
+                            50: '#F4F7F2',
+                            100: '#E4EDE0',
+                            600: '#556B2F',
+                            700: '#445624',
+                            800: '#33411B',
+                            900: '#222B12',
+                        },
+                        earthBrown: {
+                            50: '#F9F6F0',
+                            100: '#EFEAE1',
+                            600: '#6B4F36',
+                            700: '#523C28',
+                            800: '#3D2D1E',
+                            900: '#281E14',
+                        },
+                        cream: '#FDFBF7',
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #FDFBF7;
+            color: #281E14;
+        }
+        h1, h2, h3, .font-serif {
+            font-family: 'Playfair Display', serif;
+        }
+    </style>
+</head>
+<body class="bg-cream text-earthBrown-900 antialiased selection:bg-olive-600 selection:text-white">
+
+    <!-- Navigation Bar -->
+    <nav class="sticky top-0 z-50 bg-cream/90 backdrop-blur-md border-b border-olive-100 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="#" class="flex items-center gap-3 group">
+                <div class="w-10 h-10 rounded-full bg-olive-700 flex items-center justify-center text-white font-serif font-bold text-xl shadow-md group-hover:bg-olive-800 transition-colors">
+                    B
+                </div>
+                <div class="flex flex-col">
+                    <span class="text-xl font-bold tracking-tight font-serif text-olive-900">BOOST Foundation</span>
+                    <span class="text-xs uppercase tracking-widest text-earthBrown-600 font-medium">Empowerment Platform</span>
+                </div>
+            </a>
+            
+            <div class="hidden md:flex items-center gap-8 text-sm font-medium text-earthBrown-800">
+                <a href="#mission" class="hover:text-olive-700 transition-colors">Mission & SDGs</a>
+                <a href="#audience" class="hover:text-olive-700 transition-colors">Who We Serve</a>
+                <a href="#offerings" class="hover:text-olive-700 transition-colors">Our Offerings</a>
+                <a href="#founders" class="hover:text-olive-700 transition-colors">Founders</a>
+                <a href="#ai-coach" class="hover:text-olive-700 transition-colors flex items-center gap-1.5"><i class="fa-solid fa-sparkles text-olive-600"></i> Career AI</a>
+            </div>
+
+            <div class="flex items-center gap-4">
+                <a href="#apply" class="hidden sm:inline-flex px-5 py-2.5 rounded-full bg-olive-700 text-white text-sm font-semibold hover:bg-olive-800 shadow-md transition-all transform hover:-translate-y-0.5">
+                    Apply Now
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative overflow-hidden py-24 lg:py-32 bg-gradient-to-b from-olive-50/50 via-cream to-cream border-b border-olive-100">
+        <div class="max-w-7xl mx-auto px-6 relative z-10 grid lg:grid-cols-12 gap-12 items-center">
+            <div class="lg:col-span-7 space-y-6">
+                <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-olive-100 text-olive-800 text-xs font-bold tracking-wider uppercase">
+                    <i class="fa-solid fa-seedling"></i> Youth Voice & Workplace Confidence
+                </div>
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight font-serif text-olive-900 leading-[1.15]">
+                    Giving young people the <span class="italic text-olive-700">voice</span> and training to thrive.
+                </h1>
+                <p class="text-lg text-earthBrown-700 font-normal leading-relaxed max-w-2xl">
+                    Welcome to the BOOST Foundation. An elite empowerment platform dedicated to cultivating workplace confidence, mastering interpersonal relationships, and unlocking future-ready career opportunities for youth across higher education and vocational tracks.
+                </p>
+                <div class="flex flex-wrap gap-4 pt-4">
+                    <a href="#offerings" class="px-8 py-4 rounded-full bg-olive-700 text-white font-semibold text-sm hover:bg-olive-800 shadow-lg shadow-olive-700/20 transition-all flex items-center gap-2">
+                        Explore Our Programs <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="#mission" class="px-8 py-4 rounded-full border border-earthBrown-300 text-earthBrown-800 font-semibold text-sm hover:bg-earthBrown-100 transition-all">
+                        Our UN SDG Mission
+                    </a>
+                </div>
+            </div>
+
+            <div class="lg:col-span-5 relative">
+                <div class="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-olive-900/10 p-2">
+                    <img src="IMG_1446.jpg" alt="Fatima Abdulai Issah at UN" class="w-full h-[420px] object-cover rounded-2xl shadow-md">
+                    <div class="absolute bottom-6 left-6 right-6 bg-olive-900/80 backdrop-blur-md p-4 rounded-2xl text-white border border-white/10">
+                        <p class="text-xs uppercase tracking-wider text-olive-300 font-bold">Global Impact</p>
+                        <p class="text-sm font-medium">Championing youth empowerment on international platforms.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mission & SDG Section -->
+    <section id="mission" class="py-24 bg-olive-50/50 border-b border-olive-100">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-3xl mx-auto space-y-4 mb-16">
+                <span class="text-xs font-bold uppercase tracking-widest text-olive-700">Our Core Purpose</span>
+                <h2 class="text-3xl sm:text-4xl font-bold font-serif text-olive-900">Mission & Sustainable Impact</h2>
+                <p class="text-earthBrown-700 text-base leading-relaxed">
+                    To empower young people with inclusive quality education and practical workplace training, bridging systemic divides to ensure every voice is heard, and building a future-ready, innovative workforce where all youth can thrive with absolute confidence.
+                </p>
+            </div>
+
+            <!-- SDG Cards Grid -->
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- SDG 4 -->
+                <div class="bg-white p-8 rounded-3xl shadow-sm border border-olive-100 hover:shadow-md transition-all group">
+                    <div class="w-14 h-14 rounded-2xl bg-red-100 text-red-700 flex items-center justify-center font-bold text-xl mb-6 group-hover:scale-110 transition-transform">
+                        4
+                    </div>
+                    <h3 class="text-xl font-bold font-serif text-olive-900 mb-3">Quality Education</h3>
+                    <p class="text-earthBrown-700 text-sm leading-relaxed">
+                        Delivering accessible, transformative training and lifelong learning tools that traditional curricula often overlook, preparing youth for modern workplace realities.
+                    </p>
+                </div>
+
+                <!-- SDG 9 -->
+                <div class="bg-white p-8 rounded-3xl shadow-sm border border-olive-100 hover:shadow-md transition-all group">
+                    <div class="w-14 h-14 rounded-2xl bg-amber-100 text-amber-700 flex items-center justify-center font-bold text-xl mb-6 group-hover:scale-110 transition-transform">
+                        9
+                    </div>
+                    <h3 class="text-xl font-bold font-serif text-olive-900 mb-3">Industry, Innovation & Infrastructure</h3>
+                    <p class="text-earthBrown-700 text-sm leading-relaxed">
+                        Equipping young minds with future-ready skills, digital fluency, and innovative career frameworks that align seamlessly with evolving industry needs.
+                    </p>
+                </div>
+
+                <!-- SDG 10 -->
+                <div class="bg-white p-8 rounded-3xl shadow-sm border border-olive-100 hover:shadow-md transition-all group">
+                    <div class="w-14 h-14 rounded-2xl bg-blue-100 text-blue-700 flex items-center justify-center font-bold text-xl mb-6 group-hover:scale-110 transition-transform">
+                        10
+                    </div>
+                    <h3 class="text-xl font-bold font-serif text-olive-900 mb-3">Reduced Inequality</h3>
+                    <p class="text-earthBrown-700 text-sm leading-relaxed">
+                        Dismantling socio-economic barriers and network gaps to ensure every young person gets a fair seat at the table and an amplified professional voice.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Target Audience Section -->
+    <section id="audience" class="py-24 bg-cream">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-2xl mx-auto space-y-4 mb-16">
+                <span class="text-xs font-bold uppercase tracking-widest text-olive-700">Who We Serve</span>
+                <h2 class="text-3xl sm:text-4xl font-bold font-serif text-olive-900">Our Target Audience</h2>
+                <p class="text-earthBrown-700 text-base">
+                    We cater to dynamic educational institutions and ambitious young adults ready to step into leadership.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-olive-50 p-8 rounded-3xl border border-olive-100">
+                    <div class="w-12 h-12 rounded-full bg-olive-700 text-white flex items-center justify-center font-bold mb-6">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <h3 class="text-xl font-bold font-serif text-olive-900 mb-3">University Students</h3>
+                    <p class="text-earthBrown-700 text-sm leading-relaxed">
+                        Undergraduates and graduates seeking to bridge academic theory with practical workplace confidence, corporate etiquette, and interpersonal mastery.
+                    </p>
+                </div>
+
+                <div class="bg-olive-50 p-8 rounded-3xl border border-olive-100">
+                    <div class="w-12 h-12 rounded-full bg-olive-700 text-white flex items-center justify-center font-bold mb-6">
+                        <i class="fa-solid fa-building-columns"></i>
+                    </div>
+                    <h3 class="text-xl font-bold font-serif text-olive-900 mb-3">Polytechnics</h3>
+                    <p class="text-earthBrown-700 text-sm leading-relaxed">
+                        Technical students acquiring specialized expertise who benefit immensely from structured communication, leadership, and networking masterclasses.
+                    </p>
+                </div>
+
+                <div class="bg-olive-50 p-8 rounded-3xl border border-olive-100">
+                    <div class="w-12 h-12 rounded-full bg-olive-700 text-white flex items-center justify-center font-bold mb-6">
+                        <i class="fa-solid fa-tools"></i>
+                    </div>
+                    <h3 class="text-xl font-bold font-serif text-olive-900 mb-3">Vocational & Training Colleges</h3>
+                    <p class="text-earthBrown-700 text-sm leading-relaxed">
+                        Skilled trainees and artisans preparing to enter commercial environments with high self-assurance, negotiation prowess, and professional poise.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Offerings Section -->
+    <section id="offerings" class="py-24 bg-olive-900 text-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-2xl mx-auto space-y-4 mb-16">
+                <span class="text-xs font-bold uppercase tracking-widest text-olive-300">Comprehensive Solutions</span>
+                <h2 class="text-3xl sm:text-4xl font-bold font-serif text-white">Our Offerings</h2>
+                <p class="text-olive-100 text-base">
+                    Designed to transform participants into confident, industry-ready professionals.
+                </p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Offering 1 -->
+                <div class="bg-olive-800/60 backdrop-blur-md p-8 rounded-3xl border border-olive-700 hover:border-olive-500 transition-all">
+                    <div class="w-12 h-12 rounded-2xl bg-olive-600 text-white flex items-center justify-center mb-6 text-xl">
+                        <i class="fa-solid fa-video"></i>
+                    </div>
+                    <h3 class="text-xl font-bold font-serif mb-2">Virtual Training</h3>
+                    <p class="text-olive-200 text-sm leading-relaxed">
+                        Interactive sessions hosted across Zoom and leading virtual meeting platforms focused on remote workplace presence and collaboration.
+                    </p>
+                </div>
+
+                <!-- Offering 2 -->
+                <div class="bg-olive-800/60 backdrop-blur-md p-8 rounded-3xl border border-olive-700 hover:border-olive-500 transition-all">
+                    <div class="w-12 h-12 rounded-2xl bg-olive-600 text-white flex items-center justify-center mb-6 text-xl">
+                        <i class="fa-solid fa-users-rectangle"></i>
+                    </div>
+                    <h3 class="text-xl font-bold font-serif mb-2">In-Person Workshops</h3>
+                    <p class="text-olive-200 text-sm leading-relaxed">
+                        Immersive physical workshops covering public speaking, body language, interpersonal conflict resolution, and leadership dynamics.
+                    </p>
+                </div>
+
+                <!-- Offering 3 -->
+                <div class="bg-olive-800/60 backdrop-blur-md p-8 rounded-3xl border border-olive-700 hover:border-olive-500 transition-all">
+                    <div class="w-12 h-12 rounded-2xl bg-olive-600 text-white flex items-center justify-center mb-6 text-xl">
+                        <i class="fa-solid fa-handshake-angle"></i>
+                    </div>
+                    <h3 class="text-xl font-bold font-serif mb-2">Mentoring & Coaching</h3>
+                    <p class="text-olive-200 text-sm leading-relaxed">
+                        One-on-one guidance paired with job shadowing opportunities alongside seasoned industry practitioners.
+                    </p>
+                </div>
+
+                <!-- Offering 4 -->
+                <div class="bg-olive-800/60 backdrop-blur-md p-8 rounded-3xl border border-olive-700 hover:border-olive-500 transition-all">
+                    <div class="w-12 h-12 rounded-2xl bg-olive-600 text-white flex items-center justify-center mb-6 text-xl">
+                        <i class="fa-solid fa-microphone-lines"></i>
+                    </div>
+                    <h3 class="text-xl font-bold font-serif mb-2">Public Speaker Access</h3>
+                    <p class="text-olive-200 text-sm leading-relaxed">
+                        Direct engagement and masterclasses with renowned public speakers specializing in communication and executive influence.
+                    </p>
+                </div>
+
+                <!-- Offering 5 -->
+                <div class="bg-olive-800/60 backdrop-blur-md p-8 rounded-3xl border border-olive-700 hover:border-olive-500 transition-all">
+                    <div class="w-12 h-12 rounded-2xl bg-olive-600 text-white flex items-center justify-center mb-6 text-xl">
+                        <i class="fa-solid fa-network-wired"></i>
+                    </div>
+                    <h3 class="text-xl font-bold font-serif mb-2">Exclusive Networking</h3>
+                    <p class="text-olive-200 text-sm leading-relaxed">
+                        Curated forums connecting ambitious young people with employers, thought leaders, and peer networks.
+                    </p>
+                </div>
+
+                <!-- Offering 6 -->
+                <div class="bg-olive-800/60 backdrop-blur-md p-8 rounded-3xl border border-olive-700 hover:border-olive-500 transition-all">
+                    <div class="w-12 h-12 rounded-2xl bg-olive-600 text-white flex items-center justify-center mb-6 text-xl">
+                        <i class="fa-solid fa-award"></i>
+                    </div>
+                    <h3 class="text-xl font-bold font-serif mb-2">Certified Internships</h3>
+                    <p class="text-olive-200 text-sm leading-relaxed">
+                        Premium internship placement opportunities where successful participants receive formal recognition and certification.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Founders Section -->
+    <section id="founders" class="py-24 bg-cream border-b border-olive-100">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-2xl mx-auto space-y-4 mb-16">
+                <span class="text-xs font-bold uppercase tracking-widest text-olive-700">Leadership & Vision</span>
+                <h2 class="text-3xl sm:text-4xl font-bold font-serif text-olive-900">Meet Our Founders</h2>
+                <p class="text-earthBrown-700 text-base">
+                    Visionaries dedicated to transforming youth empowerment and workplace readiness globally.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+                <!-- Founder 1: Anthony Boateng -->
+                <div class="bg-white p-8 rounded-3xl shadow-sm border border-olive-100 text-center space-y-6">
+                    <div class="w-48 h-48 mx-auto rounded-full overflow-hidden shadow-md border-4 border-olive-100 bg-olive-50">
+                        <img src="IMG_9041.jpg" alt="Anthony Boateng" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="space-y-2">
+                        <h3 class="text-2xl font-bold font-serif text-olive-900">Anthony Boateng</h3>
+                        <p class="text-xs uppercase tracking-widest text-olive-700 font-bold">Co-Founder & Director</p>
+                        <p class="text-earthBrown-700 text-sm leading-relaxed pt-2">
+                            Passionate advocate for youth career development, industry innovation, and bridging the gap between education and high-impact employment.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Founder 2: Fatima Abdulai Issah -->
+                <div class="bg-white p-8 rounded-3xl shadow-sm border border-olive-100 text-center space-y-6">
+                    <div class="w-48 h-48 mx-auto rounded-full overflow-hidden shadow-md border-4 border-olive-100 bg-olive-50">
+                        <img src="IMG_1446.jpg" alt="Fatima Abdulai Issah" class="w-full h-full object-cover object-top">
+                    </div>
+                    <div class="space-y-2">
+                        <h3 class="text-2xl font-bold font-serif text-olive-900">Fatima Abdulai Issah</h3>
+                        <p class="text-xs uppercase tracking-widest text-olive-700 font-bold">Co-Founder & Executive Lead</p>
+                        <p class="text-earthBrown-700 text-sm leading-relaxed pt-2">
+                            Global development strategist and voice for youth empowerment, driving sustainable education frameworks and interpersonal leadership.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive AI Career Coach Section -->
+    <section id="ai-coach" class="py-24 bg-olive-50/50">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="bg-white p-8 sm:p-12 rounded-3xl shadow-lg border border-olive-200">
+                <div class="text-center space-y-3 mb-8">
+                    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-olive-100 text-olive-800 text-xs font-bold uppercase tracking-wider">
+                        <i class="fa-solid fa-sparkles text-olive-600"></i> Powered by Gemini AI
+                    </div>
+                    <h2 class="text-2xl sm:text-3xl font-bold font-serif text-olive-900">BoostAI Career Coach</h2>
+                    <p class="text-earthBrown-700 text-sm">
+                        Ask any question about workplace confidence, public speaking, or career readiness and get instant expert guidance.
+                    </p>
+                </div>
+
+                <div class="space-y-4">
+                    <div id="chat-output" class="bg-cream p-6 rounded-2xl min-h-[140px] max-h-[250px] overflow-y-auto text-sm text-earthBrown-800 border border-olive-100 space-y-3">
+                        <div class="flex items-start gap-3">
+                            <div class="w-8 h-8 rounded-full bg-olive-700 text-white flex items-center justify-center text-xs shrink-0 font-bold">AI</div>
+                            <div class="bg-white p-3.5 rounded-2xl shadow-sm border border-olive-100 text-xs sm:text-sm">
+                                Hello! I am your BoostAI career advisor. Ask me anything about building workplace confidence, interview preparation, or professional communication!
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-2">
+                        <input type="text" id="chat-input" placeholder="e.g., How can I speak up more confidently in team meetings?" class="flex-1 bg-cream border border-earthBrown-300 rounded-full px-5 py-3 text-sm focus:outline-none focus:border-olive-700">
+                        <button onclick="handleAIChat()" id="chat-btn" class="px-6 py-3 bg-olive-700 text-white text-sm font-semibold rounded-full hover:bg-olive-800 transition-colors shadow-md">
+                            Ask AI
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Application Form Section -->
+    <section id="apply" class="py-24 bg-cream">
+        <div class="max-w-3xl mx-auto px-6">
+            <div class="bg-white p-8 sm:p-12 rounded-3xl shadow-xl border border-olive-100">
+                <div class="text-center space-y-3 mb-10">
+                    <span class="text-xs font-bold uppercase tracking-widest text-olive-700">Join The Movement</span>
+                    <h2 class="text-3xl font-bold font-serif text-olive-900">Apply for Our Programs</h2>
+                    <p class="text-earthBrown-700 text-sm">
+                        Take the first step towards absolute workplace confidence. Fill out your details below.
+                    </p>
+                </div>
+
+                <form onsubmit="handleFormSubmit(event)" class="space-y-6">
+                    <div class="grid sm:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-earthBrown-800 mb-2">Full Name</label>
+                            <input type="text" required class="w-full bg-cream border border-earthBrown-300 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-olive-700" placeholder="e.g., Ama Mensah">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-earthBrown-800 mb-2">Email Address</label>
+                            <input type="email" required class="w-full bg-cream border border-earthBrown-300 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-olive-700" placeholder="e.g., ama@university.edu">
+                        </div>
+                    </div>
+
+                    <div class="grid sm:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-earthBrown-800 mb-2">Institution Type</label>
+                            <select class="w-full bg-cream border border-earthBrown-300 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-olive-700">
+                                <option>University Student</option>
+                                <option>Polytechnic Student</option>
+                                <option>Vocational / Training College</option>
+                                <option>Recent Graduate</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-earthBrown-800 mb-2">Program Interest</label>
+                            <select class="w-full bg-cream border border-earthBrown-300 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-olive-700">
+                                <option>Virtual Training (Zoom)</option>
+                                <option>In-Person Workshops</option>
+                                <option>Mentoring & Shadowing</option>
+                                <option>Certified Internship Track</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-bold uppercase tracking-wider text-earthBrown-800 mb-2">Why do you want to join BOOST Foundation?</label>
+                        <textarea rows="4" required class="w-full bg-cream border border-earthBrown-300 rounded-xl p-4 text-sm focus:outline-none focus:border-olive-700" placeholder="Tell us briefly about your goals..."></textarea>
+                    </div>
+
+                    <button type="submit" class="w-full py-4 bg-olive-700 text-white font-bold rounded-xl hover:bg-olive-800 shadow-lg shadow-olive-700/20 transition-all">
+                        Submit Application
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 bg-olive-900 text-olive-200 border-t border-olive-800 text-sm">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-6">
+            <div class="flex items-center gap-3">
+                <div class="w-8 h-8 rounded-full bg-olive-700 flex items-center justify-center text-white font-serif font-bold">
+                    B
+                </div>
+                <span class="font-bold text-white font-serif">BOOST Foundation</span>
+            </div>
+            <p class="text-xs text-olive-300 text-center">
+                &copy; 2026 BOOST Foundation. Empowering youth voice & workplace confidence. SDG 4, 9 & 10.
+            </p>
+            <div class="flex items-center gap-4 text-lg">
+                <a href="#" class="hover:text-white transition-colors"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" class="hover:text-white transition-colors"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#" class="hover:text-white transition-colors"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Interactive Scripts -->
+    <script>
+        function handleAIChat() {
+            const input = document.getElementById('chat-input');
+            const output = document.getElementById('chat-output');
+            const query = input.value.trim();
+            if(!query) return;
+
+            // User bubble
+            output.innerHTML += `
+                <div class="flex items-start gap-3 justify-end">
+                    <div class="bg-olive-700 text-white p-3.5 rounded-2xl shadow-sm text-xs sm:text-sm max-w-[80%]">
+                        ${escapeHtml(query)}
+                    </div>
+                </div>
+            `;
+            input.value = '';
+            output.scrollTop = output.scrollHeight;
+
+            // Simulated AI response tailored to BOOST Foundation
+            setTimeout(() => {
+                let aiReply = "Building workplace confidence starts with recognizing the value of your unique voice. In our training tracks, we focus on practical public speaking and interpersonal mastery to help you excel!";
+                if(query.toLowerCase().includes('interview')) {
+                    aiReply = "For interviews, focus on structured storytelling (the STAR method), maintain strong posture, and remember that our mentoring and coaching sessions can give you live mock interview practice!";
+                } else if(query.toLowerCase().includes('speaking') || query.toLowerCase().includes('voice')) {
+                    aiReply = "Your voice is your greatest professional asset! Practice pausing before answering, breathe deeply to steady your voice, and join our public speaker access sessions for expert tips.";
+                }
+
+                output.innerHTML += `
+                    <div class="flex items-start gap-3">
+                        <div class="w-8 h-8 rounded-full bg-olive-700 text-white flex items-center justify-center text-xs shrink-0 font-bold">AI</div>
+                        <div class="bg-white p-3.5 rounded-2xl shadow-sm border border-olive-100 text-xs sm:text-sm max-w-[80%] text-earthBrown-800">
+                            ${aiReply}
+                        </div>
+                    </div>
+                `;
+                output.scrollTop = output.scrollHeight;
+            }, 600);
+        }
+
+        function handleFormSubmit(e) {
+            e.preventDefault();
+            alert('Thank you for applying to the BOOST Foundation! Your application has been successfully received. We will be in touch soon.');
+            e.target.reset();
+        }
+
+        function escapeHtml(text) {
+            const map = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' };
+            return text.replace(/[&<>"']/g, function(m) { return map[m]; });
+        }
+    </script>
+</body>
+</html>
